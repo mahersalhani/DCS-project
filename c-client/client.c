@@ -149,7 +149,7 @@ int main()
   // Configure client connection
   client_info.context = context;
   client_info.address = "localhost"; // Replace with your server address
-  client_info.port = 3001;           // Replace with your server port
+  client_info.port = 3002;           // Replace with your server port
   client_info.path = "/";
   client_info.host = lws_canonical_hostname(context);
   client_info.origin = "origin";

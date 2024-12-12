@@ -21,7 +21,7 @@ export default function ChatApp() {
   const chatBoxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ws = new WebSocket("ws://localhost:3001");
+    const ws = new WebSocket("ws://localhost:3002");
 
     ws.onopen = () => {
       console.log("Connected to WebSocket server");
